@@ -48,5 +48,15 @@ public class Book {
         return "title  "+title+"  by Autor  "+author.getName()+" gender "+ author.getGender()+" at " + author.getEmail();
     }
 
-    public void
+    public String getAuthorName() {
+        return this.author.getName();
+    }
+
+    public String getAuthorEmail(){
+        return this.author.getEmail();
+    }
+
+    public char getAuthorGender(){
+        return this.author.getGender();
+    }
 }
